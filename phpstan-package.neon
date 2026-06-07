@@ -1,5 +1,0 @@
-parameters:
-    stubFiles:
-        - phpstan-stubs/Swoole/Coroutine.stub
-        - phpstan-stubs/Swoole/Coroutine/Channel.stub
-        - phpstan-stubs/Swoole/Coroutine/WaitGroup.stub

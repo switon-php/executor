@@ -1,10 +1,8 @@
-includes:
-    - phpstan-package.neon
-
 parameters:
     level: 7
     bootstrapFiles:
         - phpstan-bootstrap.php
+        - phpstan-swoole-stub.php
     paths:
         - src
     tmpDir: tests/.phpstan.cache
